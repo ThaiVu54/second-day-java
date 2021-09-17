@@ -4,7 +4,7 @@ public class ThietKeMenuChoUngDung {
     public static void main(String[] args) {
         int choice = -1;
         Scanner sc = new Scanner(System.in);
-        while (choice != 0){
+        while (choice != 0) {
             System.out.println("Menu");
             System.out.println("1. Draw the triangle");
             System.out.println("2. Draw the square");
@@ -12,7 +12,7 @@ public class ThietKeMenuChoUngDung {
             System.out.println("0. Exit");
             System.out.println("Enter your choice: ");
             choice = sc.nextInt();
-            switch (choice){
+            switch (choice) {
                 case 1:
                     System.out.println("draw the triangle");
                     System.out.println("******");
